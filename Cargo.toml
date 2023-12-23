@@ -1,0 +1,19 @@
+[package]
+name = "operagx-nitro-gen"
+version = "0.1.0"
+edition = "2021"
+author = "Myrddin"
+
+[dependencies]
+async-channel = "2.1.1"
+atomic-counter = "1.0.1"
+chrono = "0.4.31"
+crossterm = "0.27.0"
+fastrand = "2.0.1"
+reqwest = { version = "0.11.23", features = ["json"] }
+rfd = "0.12.1"
+serde = { version = "1.0.193", features = ["derive"] }
+serde_json = "1.0.108"
+termcolor = "1.4.0"
+tokio = { version = "1.35.1", features = ["full"] }
+winconsole = "0.11.1"
